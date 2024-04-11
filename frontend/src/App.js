@@ -1,9 +1,9 @@
 import './App.css';
-import { LoginSignup } from './Pages/LoginSignup';
-import { Product } from './Pages/Product';
-import { Cart } from './Pages/Cart';
-import { shop } from './Pages/Shop.jsx';
-import { ShopCategory } from './Pages/ShopCategory.jsx';
+import { LoginSignup } from './pages/LoginSignup.jsx';
+import { Product } from './pages/Product.jsx';
+import { Cart } from './pages/Cart.jsx';
+import { Shop } from './pages/Shop.jsx';
+import { ShopCategory } from './pages/ShopCategory.jsx';
 import Navbar from './components/navbar/Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 
@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<shop/>}/>
+        <Route path='/' element={<Shop/>}/>
         <Route path='/mens' element={<ShopCategory category="mens"/>}/>
         <Route path='/womens' element={<ShopCategory category="womens"/>}/>
         <Route path='/kids' element={<ShopCategory category="kid"/>}/>

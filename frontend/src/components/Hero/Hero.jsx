@@ -1,16 +1,16 @@
 import React from 'react'
 import './Hero.css'
-import hand_icon from '../assets/hand_icon.jpg'
-import arrow_icon from '../assets/hand_icon.jpg'
-import hero_image from '../assets/hero_image.jpg'
+import hand_icon from '../assets/hand-icon.png'
+import arrow_icon from '../assets/right-arrow.png'
+import hero_image from '../assets/hero-image.png'
 
-export const hero = () => {
+const Hero = () => {
   return (
     <div className='hero'>
         <div className="hero-left">
             <h2>Neew arrivals only</h2>
             <div>
-                <div className="hand-hand-icon">
+                <div className="hero-hand-icon">
                 <p>new</p>
                 <img src={hand_icon} alt="" />
             </div>
@@ -28,3 +28,5 @@ export const hero = () => {
     </div>
   )
 }
+
+export default Hero;
