@@ -33,5 +33,8 @@ let data_product = [
         old_price:260.00
     }
 ];
+let new_collection = [
+    
+]
 
 export default data_product;
