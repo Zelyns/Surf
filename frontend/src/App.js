@@ -6,6 +6,7 @@ import { Shop } from './Pages/Shop.jsx';
 import { ShopCategory } from './Pages/ShopCategory.jsx';
 import Navbar from './components/navbar/Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignup/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
     </div>
   );
