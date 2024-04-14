@@ -3,7 +3,7 @@ import { LoginSignup } from './pages/LoginSignup.jsx';
 import { Product } from './pages/Product.jsx';
 import { Cart } from './pages/Cart.jsx';
 import { Shop } from './pages/Shop.jsx';
-import { ShopCategory } from './pages/ShopCategory.jsx';
+import ShopCategory from './pages/ShopCategory.jsx';
 import Navbar from './components/navbar/Navbar';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Footer from './components/Footer/Footer.jsx';
