@@ -1,6 +1,6 @@
 import './App.css';
-import { LoginSignup } from './pages/LoginSignup.jsx';
-import { Product } from './pages/Product.jsx';
+import LoginSignup from './pages/LoginSignup.jsx';
+import Product from './pages/Product.jsx';
 import { Cart } from './pages/Cart.jsx';
 import { Shop } from './pages/Shop.jsx';
 import ShopCategory from './pages/ShopCategory.jsx';
