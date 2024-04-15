@@ -4,7 +4,6 @@ import breadcrum_arrow from '../assets/breadcrum_arrow.png'
 
 const Breadcrum = (props) => {
     const {product} = props;
-
   return (
     <div className='breadcrum'>
        HOME <img src={breadcrum_arrow} alt="" /> 
@@ -14,4 +13,5 @@ const Breadcrum = (props) => {
     </div>
   )
 }
-export default Breadcrum
+
+export default Breadcrum;
