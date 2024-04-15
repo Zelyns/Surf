@@ -7,7 +7,7 @@ import Item from '../components/Item/Item.jsx'
 const ShopCategory = (props) => {
   const {all_product} = useContext(ShopContext)
   return (
-    <div className='shop-category'>
+    <div className="shop-category">
       <div className="shopcategory-indexSort">
         <p>
           <span>Voir de 1-12</span> sur 36 produits
@@ -25,6 +25,9 @@ const ShopCategory = (props) => {
             return null;
           }
         })}
+      </div>
+      <div className="shopcategory-loadmore">
+        Afficher plus
       </div>
     </div>
   )
