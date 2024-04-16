@@ -8,4 +8,5 @@ const Cart = () => {
     </div>
   )
 }
-export default Cart 
+
+export default Cart;

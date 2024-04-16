@@ -1,7 +1,7 @@
 import './App.css';
 import LoginSignup from './pages/LoginSignup.jsx';
 import Product from './pages/Product.jsx';
-import { Cart } from './pages/Cart.jsx';
+import Cart from './pages/Cart.jsx';
 import { Shop } from './pages/Shop.jsx';
 import ShopCategory from './pages/ShopCategory.jsx';
 import Navbar from './components/navbar/Navbar';
