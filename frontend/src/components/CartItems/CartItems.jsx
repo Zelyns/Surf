@@ -6,7 +6,7 @@ import ShopContext  from '../../context/ShopContext'
 
 
 const CartItems = () => {
-  const{all_product,cartItems,removeFromCart} = useContext(ShopContext);
+  const{getTotalCartAmout,all_product,cartItems,removeFromCart} = useContext(ShopContext);
   return (
     <div className='cartitems'>
       <div className="cartitems-format-main">
@@ -40,7 +40,7 @@ const CartItems = () => {
           <div>
             <div className="cartitmes-total-item">
               <p>Total</p>
-              <p>€{0}</p>
+              <p>€{getTotalCartAmout()}</p>
               <hr />
               <div className="cartitmes-total-item">
                 <p>Frais d'expédition</p>
@@ -49,7 +49,7 @@ const CartItems = () => {
               <hr />
               <div className="cartitmes-total-item">
                 <h3>Total</h3>
-                <h3>${0}</h3>
+                <h3>${getTotalCartAmout()}</h3>
               </div>
             </div>
             <button>Passer en caisse</button>
